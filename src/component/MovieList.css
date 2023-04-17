@@ -1,0 +1,164 @@
+.title {
+    height: 40px;
+    width: 550px;
+    /* background-color: aliceblue; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 100px auto;
+}
+
+.title_movieTitle,
+.title_movieDate,
+.title_movieOscar,
+.title_moviebutton {
+    height: 35px;
+    background-color: rgba(255, 211, 211, 0.459);
+    outline: none;
+    border: 1px solid rgb(78, 78, 80);
+    margin: 1px;
+    border-radius: 2px;
+
+}
+
+.title_movieOscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    color: rgb(68, 68, 68);
+    height: 37px;
+
+}
+
+.title_moviebutton {
+    color: rgb(81, 20, 214);
+    height: 38px;
+}
+
+.title_movieTitle:hover,
+.title_movieDate:hover,
+.title_movieOscar:hover,
+
+.title_moviebutton:hover {
+    height: 35px;
+    background-color: rgba(255, 211, 211, 0.614);
+    outline: none;
+    border: 1px solid rgb(207, 207, 230);
+    margin: 1px;
+}
+
+.title_moviebutton:hover {
+    color: rgb(52, 21, 138);
+}
+
+.movielist .movie .movie_title .movie_date .movie_delete .movie_ititle .movie_update {}
+
+.movielist {
+    height: 1000px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 200px auto;
+
+}
+
+.movie {
+    border-radius: 10px;
+
+    width: 400px;
+    height: 250px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(172, 128, 226, 0.125);
+    border: 2px solid rgb(194, 195, 236);
+    margin: 20px;
+}
+
+.movie_title {
+    font-size: 40px;
+    margin: 5px;
+    color: rgb(83, 83, 26);
+    /* text-shadow: 2px 2px 5px 20px black; */
+}
+
+.movie_date {
+    color: rgb(160, 157, 194);
+}
+
+.movie_delete,
+.movie_update {
+    height: 30px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.504);
+    border: 1px solid white;
+    border-radius: 3px;
+    color: rgb(48, 51, 69);
+    margin: 5px;
+
+}
+
+
+.movie_delete:hover,
+.movie_update:hover {
+    background-color: rgba(240, 205, 180, 0.697);
+    transform: scale(1.05);
+}
+
+.movie_ititle {
+    border-radius: 3px;
+    height: 35px;
+    width: 250px;
+    background-color: rgba(176, 183, 233, 0.7);
+    border: 1px solid rgb(98, 98, 98);
+    outline: none;
+}
+
+.movie_ititle:hover {
+    background-color: rgba(220, 197, 240, 0.627);
+}
+
+.movie:hover {
+    transform: scale(1.04);
+    background-color: rgba(133, 153, 255, 0.218);
+
+}
+
+
+
+
+.file {
+    height: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin: 20px auto 20px auto;
+}
+
+.file_input {
+    height: 20px;
+    background-color: rgba(16, 35, 128, 0.366);
+}
+
+.file_button {
+    height: 20px;
+    width: 90px;
+    background-color: rgba(187, 187, 244, 0.533);
+    border: 1px solid white;
+    margin: 2px;
+}
+
+.file_button:hover {
+    background-color: rgba(187, 187, 244, 0.812);
+}
+
+.file:hover{
+    transform: scale(1.01);
+}

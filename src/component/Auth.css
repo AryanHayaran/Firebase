@@ -1,0 +1,39 @@
+.box {
+    height: 350px;
+    width: 300px;
+    background-color: rgba(26, 5, 84, 0.441);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 100px auto 100px auto;
+}
+
+.box_signin,
+.box_google,
+.box_email,
+.box_password,
+.box_logout {
+    width: 250px;
+    height: 40px;
+    outline: none;
+    margin: 5px;
+    background-color: rgba(240, 229, 213, 0.693);
+    border-radius: 10px;
+   border: none;
+   color: #3d4a97;
+}
+
+body {
+    background-image: radial-gradient(circle, #145ecc, #3057d9, #4f4ce3, #703be9, #9012eb);
+}
+
+.box_signin:hover,
+.box_google:hover,
+.box_email:hover,
+.box_password:hover,
+.box_logout:hover {
+    background-color: rgba(240, 229, 213, 0.856);
+    border: none;
+}
